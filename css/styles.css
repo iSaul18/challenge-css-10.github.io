@@ -143,3 +143,27 @@ img {
 .calculator {
     border-top: .5rem solid var(--Blue);
 }
+
+@media (max-width:420px) {
+
+    html {
+        font-size:52%;
+    }
+
+    .container-general {
+        width: 81vw;
+        height: 150rem;
+        margin: 0 auto;
+    }
+    
+    .container-header {
+        padding-top: 2rem;
+    }
+    .container-main {
+        margin-top: 5rem;
+        height: 95rem;
+        flex-direction: column;
+        gap:1rem;
+    }
+
+}
